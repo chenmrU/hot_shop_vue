@@ -2,7 +2,20 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import { Tabbar, TabbarItem, TreeSelect, Search, Swipe, SwipeItem, Grid, GridItem, Image as VanImage } from 'vant'
+import {
+    Tabbar,
+    TabbarItem,
+    TreeSelect,
+    Search,
+    Swipe,
+    SwipeItem,
+    Grid,
+    GridItem,
+    Image as VanImage,
+    Lazyload,
+    Col,
+    Row
+} from 'vant'
 import 'lib-flexible/flexible'
 
 Vue.use(Tabbar);
@@ -14,11 +27,14 @@ Vue.use(SwipeItem);
 Vue.use(Grid);
 Vue.use(GridItem);
 Vue.use(VanImage);
+Vue.use(Lazyload);
+Vue.use(Col);
+Vue.use(Row);
 
 Vue.config.productionTip = false
 
 new Vue({
-  router,
-  store,
-  render: h => h(App)
+    router,
+    store,
+    render: h => h(App)
 }).$mount('#app')
