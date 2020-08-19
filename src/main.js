@@ -14,7 +14,8 @@ import {
     Image as VanImage,
     Lazyload,
     Col,
-    Row
+    Row,
+    Loading
 } from 'vant'
 import 'lib-flexible/flexible'
 
@@ -30,6 +31,7 @@ Vue.use(VanImage);
 Vue.use(Lazyload);
 Vue.use(Col);
 Vue.use(Row);
+Vue.use(Loading);
 
 Vue.config.productionTip = false
 

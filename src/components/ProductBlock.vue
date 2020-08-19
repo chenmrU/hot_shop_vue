@@ -1,7 +1,7 @@
 <template>
     <div>
         <van-image
-                width="80%"
+                width="100%"
                 height="100"
                 lazy-load
                 src="https://img.yzcdn.cn/vant/cat.jpeg">
@@ -10,6 +10,7 @@
             </template>
             <template v-slot:error>加载失败</template>
         </van-image>
+        一只猫
     </div>
 </template>
 

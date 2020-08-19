@@ -38,7 +38,12 @@
 
     export default {
         name: 'Home',
-        components: {ProductBlock}
+        components: {ProductBlock},
+        data() {
+            return {
+                value: null
+            }
+        }
     }
 </script>
 
