@@ -18,7 +18,7 @@
     export default {
         data() {
             return {
-                items: [{ text: '分组 1' }, { text: '分组 2' }],
+                items: [{text: '分组 1'}, {text: '分组 2'}],
                 activeId: 1,
                 activeIndex: 0,
                 value: null
@@ -33,6 +33,7 @@
         width: 75px;
         height: 75px;
         font-size: 18PX;
+
         i {
             color: red;
         }

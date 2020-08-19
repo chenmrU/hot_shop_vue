@@ -22,7 +22,7 @@
             <van-grid-item icon="photo-o" text="文字"/>
             <van-grid-item icon="photo-o" text="文字"/>
         </van-grid>
-        <van-row type="flex">
+        <van-row>
             <van-col span="12">
                 <ProductBlock/>
             </van-col>
@@ -48,17 +48,6 @@
 </script>
 
 <style lang="less">
-    .home div {
-        // background: darkblue;
-        width: 75px;
-        height: 75px;
-        font-size: 18PX;
-
-        i {
-            color: red;
-        }
-    }
-
     .my-swipe .van-swipe-item {
         color: #fff;
         font-size: 20px;
